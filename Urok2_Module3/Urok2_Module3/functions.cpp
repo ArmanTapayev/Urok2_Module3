@@ -1,11 +1,11 @@
-#include<stdlib.h>
+п»ї#include<stdlib.h>
 #include<stdio.h>
 #include<iostream>
 #include<locale.h>
 #include<time.h>
 #include "Header.h"
 
-/* Задание 1 */
+/* Р—Р°РґР°РЅРёРµ 1 */
 void task1(int *h, int *m, int *s, int sec)
 {
 	*h = sec / 3600;
@@ -13,7 +13,7 @@ void task1(int *h, int *m, int *s, int sec)
 	*s = sec % 3600 % 60 % 60;
 }
 
-/* Задание 2 */
+/* Р—Р°РґР°РЅРёРµ 2 */
 int task2(int N)
 {
 	int reverse = 0, remainer;
@@ -26,7 +26,7 @@ int task2(int N)
 	return reverse;
 }
 
-/* Задание 3 */
+/* Р—Р°РґР°РЅРёРµ 3 */
 bool task3(int N)
 {
 	if (task2(N) == N)
@@ -35,7 +35,7 @@ bool task3(int N)
 		return 0;
 }
 
-/* Задание 4 */
+/* Р—Р°РґР°РЅРёРµ 4 */
 bool perfectNumber(int number)
 {
 	int sum = 1;
@@ -52,34 +52,34 @@ bool perfectNumber(int number)
 	return flag;
 }
 
-/* Задание 5 */
+/* Р—Р°РґР°РЅРёРµ 5 */
 void rate(int n)
 {
 	switch (n)
 	{
 		case 2:
 		{
-			printf("Неуд.");
+			printf("РќРµСѓРґ.");
 		}break;
 
 		case 3:
 		{
-			printf("Удовл.");
+			printf("РЈРґРѕРІР».");
 		}break;
 
 		case 4:
 		{
-			printf("Хорошо.");
+			printf("РҐРѕСЂРѕС€Рѕ.");
 		}break;
 
 		case 5:
 		{
-			printf("Отлично.");
+			printf("РћС‚Р»РёС‡РЅРѕ.");
 		}break;
 	}
 }
 
-/* Задание 6 */
+/* Р—Р°РґР°РЅРёРµ 6 */
 void ticket5(int n, int *m1, int *m10, int *m60)
 {
 	//int m1, m10, m60;
@@ -88,7 +88,7 @@ void ticket5(int n, int *m1, int *m10, int *m60)
 	*m1= n % 60 %10;
 }
 
-/* Задание 7 */
+/* Р—Р°РґР°РЅРёРµ 7 */
 void ticket6(int n, int *m1, int *m5, int *m10, int *m20, int *m60)
 {
 	//int m1, m10, m60;
